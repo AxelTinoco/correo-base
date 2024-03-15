@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+.header-content {
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+}
+
+.image-container{
+  display: flex;
+  width: 50%;
+}
+
+.image-container-second{
+  display: flex;
+  justify-content: end
+}
+
+.main-container{
+  display: flex;
+  margin: 0 auto;
+  max-width: 600px;
+  height: 1200px;
+  flex-direction: column;
+}
+
+.section-container{
+  display: flex;
+  justify-content: center;
+}
+
+.image-body-container{
+  width: 500px;
+  height: 200px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url('"https://drive.google.com/thumbnail?id=1BEW9tkgVKlp_ebUc17LkXDH-mnPc4ome&sz=w1000"') lightgray 50% / cover no-repeat; 
+  background-repeat: no-repeat; /* No repetir la imagen */
+  background-size: cover; /* Ajustar el tamaño de la imagen para cubrir completamente el contenedor */
+  background-position: center; /* Centrar la imagen */
+  border-radius: 1.5rem;
+  display: flex;
+  padding: 2.5rem;
+  flex-direction: column
+}
+
+.text-paragraph{
+  color: #FFF;
+  font-family: "Inter", sans-serif; 
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title{
+  color: #FFF;
+  font-family: "Inter", sans-serif; 
+   font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 3.45rem */
+}
+
+.card-container{
+  border-radius: 1rem;
+  height: 230px; 
+  border: 1px solid #F5A800;
+  width: 30%;
+}
+
+.title-card-container{
+  border-radius: 1rem 1rem 0rem 0rem;
+  background: #F5A800;
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+.title-text-card{
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.body-card{
+  border-radius: 0rem 0rem 1rem 1rem;
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.body-text-card{
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 0.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
+
+.main-cards{
+  margin-top: 1.5rem;
+}
+
+.footer-container{
+  display: flex;
+  /* width: 37.5rem; */
+  padding: 1.5rem 7.6875rem;
+  justify-content: center;
+  align-items: center;
+  background: #D1D1D2;
+}
+
+.text-footer{
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-info{
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.link-text{
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.links-container{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info-zoom-container{
+  margin-top: 1.5rem;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <header class="header-content">
+      <div class="image-container">
+        <img src="https://photos.app.goo.gl/UD4JmrsTowyBysAj6" width="150px" alt="logo-base">
+      </div>
+      <div class="image-container-second">
+        <img src="asseets/Comercial Nacional.svg" width="150px" alt="comercial-svg">
+      </div>
+    </header>
+    <section class="section-container">
+      <div class="image-body-container">
+        <p class="text-paragraph">26 Mar 2024 04:30 p.m. Hora del pacífico (EE.UU. Y Canadá)</p>
+        <h2 class="title">BASE <br> es un 2x3</h2>
+        <h2 class="title"></h2>
+      </div>
+    </section>
+    <section class="main-cards">
+      <h3 class="title-text-card">En esta primera sesión hablaremos de:</h3>
+      <div class="section-cards">
+        <div class="card-container">
+          <div class="title-card-container">
+            <h3 class="title-text-card">Resultados Q1</h3>
+          </div>
+          <div class="body-card">
+            <p class="body-text-card">Revisaremos en detalle los avances y resultados obtenidos durante el primer trimestre de 2024 en materia comercial.</p>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="title-card-container">
+            <h3 class="title-text-card">Resultados Q1</h3>
+          </div>
+          <div class="body-card">
+            <p class="body-text-card">Revisaremos en detalle los avances y resultados obtenidos durante el primer trimestre de 2024 en materia comercial.</p>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="title-card-container">
+            <h3 class="title-text-card">Resultados Q1</h3>
+          </div>
+          <div class="body-card">
+            <p class="body-text-card">Revisaremos en detalle los avances y resultados obtenidos durante el primer trimestre de 2024 en materia comercial.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="links-container">
+      <div>
+        <p class="title-text-card">Entrar Zoom Reunión <br><a class="link-text">https://us04web.zoom.us/j/72177998193?pwd=9WopCZgyfp2HF0Qa7WNY82Lasauvj1.1</a></p>
+      </div>
+      <div class="info-zoom-container">
+        <p class="text-info">ID de reunión: 721 7799 8193 <br>Código de acceso: se7zEz </p>      </div>
+    </section>
+    <footer class="footer-container">
+      <p class="text-footer">Sigamos avanzando en nuestros objetivos de duplicar para triplicar</p>
+    </footer>
+  </div>
+</body>
+</html>
