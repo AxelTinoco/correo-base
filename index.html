@@ -18,7 +18,7 @@
 
 .image-container{
   display: flex;
-  width: 50%;
+  width: 30%;
 }
 
 .image-container-second{
@@ -28,6 +28,10 @@
 }
 
 .image-base-comercial{
+  object-fit: contain;
+}
+
+.image-base-logo{
   object-fit: contain;
 }
 
@@ -47,7 +51,7 @@
 .image-body-container{
   width: 500px;
   height: 200px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url('https://lh3.googleusercontent.com/d/10kWmZB5V15dnrfTAKX5hPvh2jx7uo-gZ') lightgray 50% / cover no-repeat; 
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url('https://recursos.bancobase.com/hubfs/EMM/2x3/background.png') lightgray 50% / cover no-repeat; 
   background-repeat: no-repeat; /* No repetir la imagen */
   background-size: cover; /* Ajustar el tamaño de la imagen para cubrir completamente el contenedor */
   background-position: center; /* Centrar la imagen */
@@ -187,10 +191,10 @@
   <div class="main-container">
     <header class="header-content">
       <div class="image-container">
-        <img src="https://lh3.googleusercontent.com/d/10l4YeveOAm8y3_PjVya6Dd6opChd3HLj" width="200px" height="auto" alt="logo-base">
+        <img class="image-base-logo" src="https://recursos.bancobase.com/hubfs/EMM/2x3/BASE_IMAGOTIPO.png" width="100%" height="100%" alt="logo-base">
       </div>
       <div class="image-container-second">
-        <img class="image-base-comercial" src="https://lh3.googleusercontent.com/d/1dvPit5kEkuMce96oRs0mheixAE0Afwkr" width="100%" height="100%" alt="comercial-svg">
+        <img class="image-base-comercial" src="https://recursos.bancobase.com/hubfs/EMM/2x3/Comercial%20Nacional.png" width="100%" height="100%" alt="comercial-svg">
       </div>
     </header>
     <section class="section-container">
